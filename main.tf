@@ -9,7 +9,7 @@ resource "azurerm_resource_group" "test" {
 
 resource "azurerm_resource_group" "test2" {
   location = "northeurope"
-  name     = "test"
+  name     = "test2"
 
   tags = {
     environment = "dev"
